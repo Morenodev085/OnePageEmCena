@@ -6,7 +6,7 @@ import { color } from "../../styled";
 export const Fundo = styled.div`
 background-color: ${color.white};
 border-radius: 8px;
- background-color: rgba(255, 255, 255, 0.8); /* branco com 80% de opacidade */
+ background-color: rgba(255, 255, 255, 0.3); /* branco com 80% de opacidade */
 `
 
 export const Text = styled.p`
