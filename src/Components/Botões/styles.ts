@@ -37,6 +37,6 @@ font-size: 22px;
 cursor: pointer;
 
 &:hover{
-    background-color: ${color.green};
+  background-color: ${color.green};
 }
 `

@@ -7,15 +7,13 @@ export const color = {
 
     blue:'#2355ba',
     darckblue: '#000066',
-
-    green: '##4f7a09',
-    litlegreen: '#8bc63e'
+    
+    green: '#4f7a09',
+    litlegreen: '#8bc63e',
 }
 
 
 export const EstiloGlobal = createGlobalStyle`
-
-
 
 *{
     margin: 0;
@@ -30,8 +28,6 @@ body{
     overflow-x: hidden;
 }
 `
-
-
 export const Container = styled.div`
     padding: 32px;
     max-width: 1200px;
