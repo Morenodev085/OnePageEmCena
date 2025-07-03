@@ -1,4 +1,5 @@
 import Header from "./Components/Header"
+import Message from "./Components/Text"
 import { EstiloGlobal } from "./styled"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <EstiloGlobal />
       <Header/>
+      <Message/>
     </>
   )
 }

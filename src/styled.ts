@@ -1,9 +1,9 @@
 import styled, { createGlobalStyle } from "styled-components"
 
 export const color = {
-creme: '#f9f9db',
-black: '#000066',
-white: '#fff'
+    creme: '#f9f9db',
+    black: '#000066',
+    white: '#fff'
 }
 
 
@@ -28,3 +28,12 @@ body{
 export const Botao = styled.button`
 background-color: darkolivegreen;
 `
+export const Container = styled.div`
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
