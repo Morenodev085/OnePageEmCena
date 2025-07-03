@@ -1,25 +1,25 @@
 import { Container } from "../../styled"
-import { ButtonsLinks} from "./styles"
+import { ButtonsArea, ButtonsBody, ButtonsLinks} from "./styles"
 
 const Buttons = () => {
     return (
         <Container>
-            <div>
-                <ButtonsLinks href="">
-                    <button>Mostras Cenas Curtas</button>
+            <ButtonsArea>
+                <ButtonsLinks href="" target="_parent">
+                    <ButtonsBody>Mostras Cenas Curtas</ButtonsBody>
                 </ButtonsLinks>
-                <ButtonsLinks href="">
-                    <button>Regulamento Mostras Cenas Curtas</button>
+                <ButtonsLinks href="" target="_parent">
+                    <ButtonsBody>Regulamento Mostras Cenas Curtas</ButtonsBody>
                 </ButtonsLinks>
-            </div>
-            <div>
-                <ButtonsLinks href="">
-                    <button>Mostra Estudantil</button>
+            </ButtonsArea>
+            <ButtonsArea>
+                <ButtonsLinks href="" target="_parent">
+                    <ButtonsBody>Mostra Estudantil</ButtonsBody>
                 </ButtonsLinks>
-                <ButtonsLinks href="">
-                    <button>Regulamento Mostra Estudantil</button>
+                <ButtonsLinks href="" target="_parent">
+                    <ButtonsBody>Regulamento Mostra Estudantil</ButtonsBody>
                     </ButtonsLinks>
-            </div>
+            </ButtonsArea>
         </Container>
     )
 }

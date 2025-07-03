@@ -2,8 +2,11 @@ import styled, { createGlobalStyle } from "styled-components"
 
 export const color = {
     creme: '#f9f9db',
-    black: '#000066',
-    white: '#fff'
+    black: '#000',
+    white: '#fff',
+
+    blue:'#2355ba',
+    darckblue: '#000066'
 }
 
 
@@ -34,4 +37,5 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 64px;
 `;
