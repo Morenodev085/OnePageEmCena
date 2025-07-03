@@ -2,8 +2,8 @@ import styled, { createGlobalStyle } from "styled-components"
 
 export const color = {
 creme: '#f9f9db',
-preto: '#000',
-Branco: '#fff'
+black: '#000066',
+white: '#fff'
 }
 
 
@@ -20,7 +20,7 @@ export const EstiloGlobal = createGlobalStyle`
 
 body{
     background-color: ${color.creme};
-    color: ${color.preto};
+    color: ${color.black};
     overflow-x: hidden;
 }
 `

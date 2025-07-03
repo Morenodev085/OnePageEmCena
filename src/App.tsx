@@ -1,8 +1,12 @@
+import Header from "./Components/Header"
+import { EstiloGlobal } from "./styled"
+
 function App() {
 
   return (
     <>
-      <h1>Niteroi em Cena</h1>
+      <EstiloGlobal />
+      <Header/>
     </>
   )
 }
