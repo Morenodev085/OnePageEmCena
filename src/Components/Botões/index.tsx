@@ -11,8 +11,6 @@ const Buttons = () => {
                 <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
                     <ButtonsBody>Regulamento Mostras Cenas Curtas</ButtonsBody>
                 </ButtonsLinks>
-            </ButtonsArea>
-            <ButtonsArea>
                 <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
                     <ButtonsBody>Mostra Estudantil</ButtonsBody>
                 </ButtonsLinks>

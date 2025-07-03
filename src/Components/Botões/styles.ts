@@ -2,18 +2,27 @@ import styled from "styled-components";
 import { color } from "../../styled";
 
 export const ButtonsLinks = styled.a`
- background-color:azure ;
- margin-bottom: 16px;
- width: 100%;
- `
+  width: 48%; 
+  text-decoration: none;
+  border-radius: 8px;
+
+  @media (max-width: 768px) {
+    width: 100%; /* em mobile ocupa a linha toda */
+  }
+`;
 
 export const ButtonsArea = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-wrap: wrap; /* permite quebrar linha */
+  gap: 16px;
+  justify-content: space-between;
+
+
 
 @media (max-width: 768px) {
     flex-direction: column;
     gap: 12px;
+    width: 100%;
 }
 `
 
