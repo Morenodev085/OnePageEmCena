@@ -10,6 +10,11 @@ export const ButtonsLinks = styled.a`
 export const ButtonsArea = styled.div`
 display: flex;
 flex-direction: column;
+
+@media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+}
 `
 
 export const ButtonsBody = styled.button`
