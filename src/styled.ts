@@ -20,5 +20,11 @@ export const EstiloGlobal = createGlobalStyle`
 
 body{
     background-color: ${color.creme};
+    color: ${color.preto};
+    overflow-x: hidden;
 }
+`
+
+export const Botao = styled.button`
+background-color: darkolivegreen;
 `
