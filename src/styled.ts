@@ -25,9 +25,7 @@ body{
 }
 `
 
-export const Botao = styled.button`
-background-color: darkolivegreen;
-`
+
 export const Container = styled.div`
     padding: 32px;
     max-width: 1200px;
