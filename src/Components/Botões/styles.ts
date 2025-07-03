@@ -33,7 +33,7 @@ border: none;
 width: 100%;
 background-color: ${color.litlegreen};
 color: ${color.white};
-font-size: 16px;
+font-size: 22px;
 cursor: pointer;
 
 &:hover{

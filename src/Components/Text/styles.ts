@@ -10,7 +10,7 @@ border-radius: 8px;
 `
 
 export const Text = styled.p`
-font-size: 14px;
+font-size: 22px;
 text-align: justify;
 padding: 18px 18px;
 
