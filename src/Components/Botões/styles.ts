@@ -31,12 +31,12 @@ padding: 12px;
 border-radius: 8px;
 border: none;
 width: 100%;
-background-color: ${color.blue};
+background-color: ${color.litlegreen};
 color: ${color.white};
 font-size: 16px;
 cursor: pointer;
 
 &:hover{
-    background-color: ${color.darckblue};
+    background-color: ${color.green};
 }
 `

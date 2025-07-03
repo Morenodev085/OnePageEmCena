@@ -6,7 +6,10 @@ export const color = {
     white: '#fff',
 
     blue:'#2355ba',
-    darckblue: '#000066'
+    darckblue: '#000066',
+
+    green: '##4f7a09',
+    litlegreen: '#8bc63e'
 }
 
 
