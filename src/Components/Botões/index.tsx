@@ -6,7 +6,7 @@ const Buttons = () => {
         <Container>
             {/* Grupo Mostras Cenas Curtas */}
             <ButtonsArea>
-                <ButtonsBody as="div" className="section-title">Mostras Cenas Curtas</ButtonsBody>
+                <ButtonsBody as="div" className="section-title">Mostra Cena Curta</ButtonsBody>
 
                 {/* Container com os dois botões lado a lado */}
                 <ButtonsLinksWrapper>
@@ -20,8 +20,8 @@ const Buttons = () => {
             </ButtonsArea>
 
             {/* Grupo Mostra Estudantil */}
-          <ButtonsArea>
-                <ButtonsBody as="div" className="section-title">Mostras Estudantil</ButtonsBody>
+            <ButtonsArea>
+                <ButtonsBody as="div" className="section-title">Mostra Estudantil </ButtonsBody>
 
                 {/* Container com os dois botões lado a lado */}
                 <ButtonsLinksWrapper>
