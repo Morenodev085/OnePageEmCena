@@ -1,35 +1,35 @@
 import { Container } from "../../styled"
-import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper } from "./styles"
+import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper, Text } from "./styles"
 
 const Buttons = () => {
     return (
         <Container>
             {/* Grupo Mostras Cenas Curtas */}
             <ButtonsArea>
-                <ButtonsBody as="div" className="section-title">Mostra Cena Curta</ButtonsBody>
+                <Text><strong>Mostra Cena Curta</strong></Text>
 
                 {/* Container com os dois botões lado a lado */}
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>Inscrição </ButtonsBody>
+                        <ButtonsBody>Regulamento </ButtonsBody>
                     </ButtonsLinks>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>Regulamento </ButtonsBody>
+                        <ButtonsBody>Inscrição</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>
 
             {/* Grupo Mostra Estudantil */}
             <ButtonsArea>
-                <ButtonsBody as="div" className="section-title">Mostra Estudantil </ButtonsBody>
+                <Text> <strong>Mostra Estudantil</strong> </Text>
 
                 {/* Container com os dois botões lado a lado */}
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>Inscrição </ButtonsBody>
+                        <ButtonsBody>Regulamento</ButtonsBody>
                     </ButtonsLinks>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>Regulamento </ButtonsBody>
+                        <ButtonsBody>Inscrição  </ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>

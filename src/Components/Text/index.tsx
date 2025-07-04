@@ -22,8 +22,8 @@ const Message = () => {
                 </Text>
                 <Text2>
                     <span><strong>PRAZOS PARA SE INSCREVER: </strong> </span><br/>
-                    <strong style={{ display: "block", marginTop: 8 }}>Mostra Cenas Curtas - até 31 de julho</strong>
-                    <strong style={{ display: "block", marginTop: 4 }}>Mostra Estudantil - até 20 de agosto</strong>
+                    <strong style={{ display: "block", marginTop: 8 }}>Mostra Cenas Curtas <br/> até 31 de julho</strong>
+                    <strong style={{ display: "block", marginTop: 4 }}>Mostra Estudantil <br/> até 20 de agosto</strong>
                 </Text2>
             </Fundo>
         </Container>

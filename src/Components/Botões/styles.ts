@@ -66,3 +66,9 @@ export const ButtonsLinksWrapper = styled.div`
 
   }
 `;
+export const Text = styled.p`
+font-size: 22px;
+text-align: center;
+padding: 18px 18px;
+color:	#FA8072;
+`
