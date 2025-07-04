@@ -26,7 +26,7 @@ const Buttons = () => {
                 </TextWrapper>
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody >Regulamento</ButtonsBody>
+                        <ButtonsBody >Inscrição</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>
