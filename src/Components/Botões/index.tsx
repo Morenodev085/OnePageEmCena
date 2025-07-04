@@ -14,7 +14,7 @@ const Buttons = () => {
                         <ButtonsBody>Regulamento </ButtonsBody>
                     </ButtonsLinks>
                     <ButtonsLinks href="https://forms.gle/jzjRaLkQkXfaSHP47" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>Inscrição</ButtonsBody>
+                        <ButtonsBody>INSCREVA-SE</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>
@@ -26,7 +26,7 @@ const Buttons = () => {
                 </TextWrapper>
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="https://forms.gle/Aogxqu3XZMDivKpn8" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody >Inscrição</ButtonsBody>
+                        <ButtonsBody >INSCREVA-SE</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>
