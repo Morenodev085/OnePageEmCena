@@ -43,7 +43,7 @@ export const ButtonsBody = styled.button`
   width: 100%;
   background-color: ${color.darckblue};
   color: ${color.white};
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
   height: 100%;
