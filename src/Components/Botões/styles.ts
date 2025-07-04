@@ -65,11 +65,11 @@ export const ButtonsBody = styled.button`
 `;
 
 export const TextWrapper = styled.div`
-  display: flex;
+  
   align-items: flex-end; /* <-- isso alinha os textos pela linha de baixo */
   height: 50px; /* ou qualquer altura fixa que funcione para o alinhamento */
   margin-top: 16px;
-
+margin-bottom: 16px;
 `;
 
 export const Text = styled.p`
