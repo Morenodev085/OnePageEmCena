@@ -2,14 +2,13 @@ import styled from "styled-components";
 import { color } from "../../styled";
 
 export const ButtonsLinks = styled.a`
-  width: 48%; 
+  width: 100%; 
   text-decoration: none;
   border-radius: 8px;
-  height: 100%; /* <-- adiciona isso */
-  display: flex; /* necessário para que ButtonsBody ocupe toda a altura */
+
 
   @media (max-width: 768px) {
-    width: 100%; /* em mobile ocupa a linha toda */
+    width: 100%; 
 
   }
 `;
@@ -36,7 +35,7 @@ export const ButtonsBody = styled.button`
   cursor: pointer;
   text-align: center;
   height: 100%;
-  flex: 1; /* <-- adiciona isso */
+  transition: 0.2s ease;
 
   &:hover {
     background-color: ${color.midblue};
@@ -56,9 +55,8 @@ export const ButtonsBody = styled.button`
 
 export const ButtonsLinksWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
-  gap: 4%; /* espaço entre os botões */
-  margin-top: 12px;
+  flex-direction: column;
+  gap: 12px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -70,5 +68,10 @@ export const Text = styled.p`
 font-size: 22px;
 text-align: center;
 padding: 18px 18px;
-color:	#FA8072;
+color:	#A52A2A;
 `
+export const TextWrapper = styled.div`
+  display: flex;
+  align-items: flex-end; /* <-- isso alinha os textos pela linha de baixo */
+  height: 50px; /* ou qualquer altura fixa que funcione para o alinhamento */
+`;

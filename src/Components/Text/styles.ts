@@ -11,7 +11,7 @@ export const Text = styled.p`
 font-size: 22px;
 text-align: justify;
 padding: 18px 18px;
-color:	#FA8072;
+color:	#A52A2A;
 `
 
 export const Text2 = styled.p`

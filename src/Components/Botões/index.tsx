@@ -1,14 +1,14 @@
 import { Container } from "../../styled"
-import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper, Text } from "./styles"
+import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper, Text, TextWrapper } from "./styles"
 
 const Buttons = () => {
     return (
         <Container>
             {/* Grupo Mostras Cenas Curtas */}
             <ButtonsArea>
-                <Text><strong>MOSTRA CENAS CURTAS</strong></Text>
-
-                {/* Container com os dois botões lado a lado */}
+                <TextWrapper>
+                    <Text><strong>MOSTRA CENAS CURTAS</strong></Text>
+                </TextWrapper>
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
                         <ButtonsBody>Regulamento </ButtonsBody>
@@ -21,18 +21,16 @@ const Buttons = () => {
 
             {/* Grupo Mostra Estudantil */}
             <ButtonsArea>
-                <Text> <strong>MOSTRA ESTUDANTIL</strong> </Text>
-
-                {/* Container com os dois botões lado a lado */}
+                <TextWrapper>
+                    <Text> <strong>MOSTRA ESTUDANTIL</strong> </Text>
+                </TextWrapper>
                 <ButtonsLinksWrapper>
                     <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
                         <ButtonsBody >Regulamento</ButtonsBody>
                     </ButtonsLinks>
-
                 </ButtonsLinksWrapper>
             </ButtonsArea>
         </Container>
-
     )
 }
 
