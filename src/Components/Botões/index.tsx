@@ -3,7 +3,7 @@ import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper, Text, Text
 
 const Buttons = () => {
     return (
-        <Container>
+        <Container className="buttons-container">
             {/* Grupo Mostras Cenas Curtas */}
             <ButtonsArea>
                 <TextWrapper>

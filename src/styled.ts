@@ -5,10 +5,10 @@ export const color = {
     black: '#000',
     white: '#fff',
 
-    blue:'#2355ba',
+    blue: '#2355ba',
     darckblue: '#000066',
     midblue: '#003399',
-    
+
     green: '#4f7a09',
     litlegreen: '#8bc63e',
 }
@@ -40,4 +40,13 @@ export const Container = styled.div`
     column-gap: 64px;
     align-items: flex-start;
 
+&.buttons-container {
+    justify-content: space-between;
+    gap: 32px;
+
+
+    @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;}
 `;
