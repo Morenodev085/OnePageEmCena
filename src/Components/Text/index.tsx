@@ -18,12 +18,12 @@ const Message = () => {
                     Cada uma receberá um cachê de participação de R$ 2.500,00,
                     além de concorrer ao Prêmio Júri Popular, que acrescentará R$ 2.000,00 ao valor do cachê da cena premiada (baixe o Regulamento)<br /><br />
 
-                    As inscrições para as duas mostras são <strong>GRATUITAS</strong>. Basta preencher o formulário desejado, clicando no botão abaixo<br /><br />
+                    As inscrições para as duas mostras são <strong>GRATUITAS</strong>. Basta preencher o formulário desejado, clicando no botão abaixo.<br /><br />
                 </Text>
                 <Text2>
-                    <span><strong>PRAZOS PARA SE INSCREVER: </strong> </span><br/>
-                    <strong style={{ display: "block", marginTop: 8 }}>Mostra Cenas Curtas <br/> até 31 de julho</strong>
-                    <strong style={{ display: "block", marginTop: 4 }}>Mostra Estudantil <br/> até 20 de agosto</strong>
+                    <span style={{ fontSize: 24}}><strong >PRAZOS PARA SE INSCREVER: </strong> </span><br/><br/>
+                    <strong style={{ display: "block", marginTop: 8  }}><span style={{ fontSize: 24}}>Mostra Cenas Curtas</span> <br/> até 31 de julho</strong><br/>
+                    <strong style={{ display: "block", marginTop: 4 }}><samp style={{ fontSize: 24}}>Mostra Estudantil</samp> <br/> até 20 de agosto</strong>
                 </Text2>
             </Fundo>
         </Container>
