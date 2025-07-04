@@ -8,9 +8,8 @@ const Message = () => {
             <Fundo>
                 <Text>
                     Estão abertas as inscrições para a <strong>MOSTRA ESTUDANTIL</strong> e para a <strong>MOSTRA CENAS CURTAS</strong> do 18° Niterói em Cena,
-                    que será realizado entre 16 e 28 de setembro de 2025!
-                </Text>
-                <Text>
+                    que será realizado entre 16 e 28 de setembro de 2025!<br /><br />
+                
                     A Mostra Estudantil será realizada na Sala Nelson Pereira dos Santos, nos dias 16, 17 e 18 de setembro, nos turnos da manhã e tarde.
                     Podem participar escolas e cursos livres de teatro do estado do Rio de Janeiro. Serão selecionadas, pelo menos, 60 cenas de até 8 minutos.
                     Reservaremos 20 ajudas de custo de R$ 500,00 para professores atuantes em Niterói, a fim de auxiliar na vinda de seus alunos.<br /><br />
