@@ -4,7 +4,7 @@ import { Logo } from './styles'
 
 const Header = () => {
     return (
-        <Container>
+        <Container >
             <Logo src={EmCenaLogo} alt="Nitéroi em cena" />
         </Container>
     )

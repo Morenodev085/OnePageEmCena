@@ -1,24 +1,40 @@
 import { Container } from "../../styled"
-import { ButtonsArea, ButtonsBody, ButtonsLinks} from "./styles"
+import { ButtonsArea, ButtonsBody, ButtonsLinks, ButtonsLinksWrapper } from "./styles"
 
 const Buttons = () => {
     return (
         <Container>
+            {/* Grupo Mostras Cenas Curtas */}
             <ButtonsArea>
-                <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
-                    <ButtonsBody>Mostras Cenas Curtas</ButtonsBody>
-                </ButtonsLinks>
-                <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
-                    <ButtonsBody>Regulamento Mostras Cenas Curtas</ButtonsBody>
-                </ButtonsLinks>
-                <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
-                    <ButtonsBody>Mostra Estudantil</ButtonsBody>
-                </ButtonsLinks>
-                <ButtonsLinks href="" target="_parent" rel="noopener noreferrer">
-                    <ButtonsBody>Regulamento Mostra Estudantil</ButtonsBody>
+                <ButtonsBody as="div" className="section-title">Mostras Cenas Curtas</ButtonsBody>
+
+                {/* Container com os dois botões lado a lado */}
+                <ButtonsLinksWrapper>
+                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                        <ButtonsBody>Inscrição </ButtonsBody>
                     </ButtonsLinks>
+                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                        <ButtonsBody>Regulamento </ButtonsBody>
+                    </ButtonsLinks>
+                </ButtonsLinksWrapper>
+            </ButtonsArea>
+
+            {/* Grupo Mostra Estudantil */}
+          <ButtonsArea>
+                <ButtonsBody as="div" className="section-title">Mostras Estudantil</ButtonsBody>
+
+                {/* Container com os dois botões lado a lado */}
+                <ButtonsLinksWrapper>
+                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                        <ButtonsBody>Inscrição </ButtonsBody>
+                    </ButtonsLinks>
+                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                        <ButtonsBody>Regulamento </ButtonsBody>
+                    </ButtonsLinks>
+                </ButtonsLinksWrapper>
             </ButtonsArea>
         </Container>
+
     )
 }
 

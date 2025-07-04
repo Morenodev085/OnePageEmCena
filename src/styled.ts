@@ -7,6 +7,7 @@ export const color = {
 
     blue:'#2355ba',
     darckblue: '#000066',
+    midblue: '#003399',
     
     green: '#4f7a09',
     litlegreen: '#8bc63e',
@@ -37,4 +38,5 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     column-gap: 64px;
+
 `;

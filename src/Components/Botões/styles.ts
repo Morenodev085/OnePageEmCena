@@ -13,9 +13,9 @@ export const ButtonsLinks = styled.a`
 
 export const ButtonsArea = styled.div`
   display: flex;
-  flex-wrap: wrap; /* permite quebrar linha */
-  gap: 16px;
-  justify-content: space-between;
+  flex-direction: column;
+
+
 
 
 
@@ -27,16 +27,39 @@ export const ButtonsArea = styled.div`
 `
 
 export const ButtonsBody = styled.button`
-padding: 12px;
-border-radius: 8px;
-border: none;
-width: 100%;
-background-color: ${color.litlegreen};
-color: ${color.white};
-font-size: 22px;
-cursor: pointer;
+  padding: 32px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  background-color: ${color.darckblue};
+  color: ${color.white};
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
 
-&:hover{
-  background-color: ${color.green};
-}
+  &:hover {
+    background-color: ${color.midblue};
+  }
+
+  &.section-title {
+    cursor: default;
+    background-color: ${color.midblue};
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+    padding: 24px;
+  }
 `
+
+export const ButtonsLinksWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 4%; /* espaço entre os botões */
+  margin-top: 12px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+
+  }
+`;
