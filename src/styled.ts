@@ -41,7 +41,6 @@ export const Container = styled.div`
     align-items: flex-start;
 
 &.buttons-container {
-    justify-content: space-between;
     gap: 32px;
 
 
@@ -49,4 +48,5 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: stretch;
     gap: 24px;}
+}
 `;
