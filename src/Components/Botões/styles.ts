@@ -1,6 +1,29 @@
 import styled from "styled-components";
 import { color } from "../../styled";
 
+export const ButtonsArea = styled.div`
+  display: flex;
+  flex-direction: column;
+
+@media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+`
+
+export const ButtonsLinksWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 12px;
+
+  }
+`;
+
 export const ButtonsLinks = styled.a`
   width: 100%; 
   text-decoration: none;
@@ -12,17 +35,6 @@ export const ButtonsLinks = styled.a`
 
   }
 `;
-
-export const ButtonsArea = styled.div`
-  display: flex;
-  flex-direction: column;
-
-@media (max-width: 768px) {
-    flex-direction: column;
-    gap: 12px;
-    width: 100%;
-}
-`
 
 export const ButtonsBody = styled.button`
   padding: 22px;
@@ -52,27 +64,16 @@ export const ButtonsBody = styled.button`
   }
 `;
 
-
-export const ButtonsLinksWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 12px;
-
-  }
-`;
-export const Text = styled.p`
-font-size: 22px;
-text-align: center;
-padding: 18px 18px;
-color:	#A52A2A;
-`
 export const TextWrapper = styled.div`
   display: flex;
   align-items: flex-end; /* <-- isso alinha os textos pela linha de baixo */
   height: 50px; /* ou qualquer altura fixa que funcione para o alinhamento */
   margin-top: 16px;
 `;
+
+export const Text = styled.p`
+font-size: 22px;
+text-align: center;
+padding: 18px 18px;
+color:	#A52A2A;
+`
