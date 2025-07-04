@@ -10,10 +10,10 @@ const Buttons = () => {
                     <Text><strong>MOSTRA CENAS CURTAS</strong></Text>
                 </TextWrapper>
                 <ButtonsLinksWrapper>
-                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                    <ButtonsLinks href="https://drive.google.com/file/d/1_i5mHMMDSR5bX5a2rZh6KyIGDMFqag6C/view?usp=sharing" target="_parent" rel="noopener noreferrer">
                         <ButtonsBody>Regulamento </ButtonsBody>
                     </ButtonsLinks>
-                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                    <ButtonsLinks href="https://forms.gle/jzjRaLkQkXfaSHP47" target="_parent" rel="noopener noreferrer">
                         <ButtonsBody>Inscrição</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
@@ -25,7 +25,7 @@ const Buttons = () => {
                     <Text> <strong>MOSTRA ESTUDANTIL</strong> </Text>
                 </TextWrapper>
                 <ButtonsLinksWrapper>
-                    <ButtonsLinks href="#" target="_parent" rel="noopener noreferrer">
+                    <ButtonsLinks href="https://forms.gle/Aogxqu3XZMDivKpn8" target="_parent" rel="noopener noreferrer">
                         <ButtonsBody >Inscrição</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
