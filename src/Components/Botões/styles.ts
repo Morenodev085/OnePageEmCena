@@ -26,7 +26,7 @@ export const ButtonsArea = styled.div`
 `
 
 export const ButtonsBody = styled.button`
-  padding: 32px;
+  padding: 22px;
   border-radius: 8px;
   border: none;
   width: 100%;
