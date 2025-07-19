@@ -1,16 +1,16 @@
 import styled, { createGlobalStyle } from "styled-components"
 
 export const color = {
-    creme: '#f9f9db',
-    black: '#000',
+    creme: '#F5E1BB',
+    black: '#593F3D',
     white: '#fff',
 
     blue: '#2355ba',
     darckblue: '#000066',
     midblue: '#003399',
 
-    green: '#4f7a09',
-    litlegreen: '#8bc63e',
+    green: '#969654',
+    litlegreen: '#b2b27a',
 }
 
 

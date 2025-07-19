@@ -41,7 +41,7 @@ export const ButtonsBody = styled.button`
   border-radius: 8px;
   border: none;
   width: 100%;
-  background-color: ${color.darckblue};
+  background-color: ${color.green};
   color: ${color.white};
   font-size: 16px;
   cursor: pointer;
@@ -50,12 +50,12 @@ export const ButtonsBody = styled.button`
   transition: 0.2s ease;
 
   &:hover {
-    background-color: ${color.midblue};
+    background-color: ${color.litlegreen};
   }
 
   &.section-title {
     cursor: default;
-    background-color: ${color.midblue};
+    background-color: ${color.litlegreen};
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 12px;
@@ -76,5 +76,5 @@ export const Text = styled.p`
 font-size: 22px;
 text-align: center;
 padding: 18px 18px;
-color:	#A52A2A;
+/* color:	#A52A2A; */
 `

@@ -8,7 +8,14 @@ background-color: ${color.darckblue};
 `
 
 export const Logo = styled.img`
-height: 200px;
-width: 256px;
+  width: 80%;
+  max-width: 256px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 
-`
+  @media (max-width: 600px) {
+    width: 60%;
+    max-width: 180px;
+  }
+`;
