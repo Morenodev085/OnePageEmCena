@@ -13,8 +13,8 @@ const Buttons = () => {
                     <ButtonsLinks href="https://drive.google.com/file/d/18KfoXXjqTyUhUWsUwcKr29AKO_cgsIdS/view?usp=sharing">
                         <ButtonsBody>Regulamento </ButtonsBody>
                     </ButtonsLinks>
-                    <ButtonsLinks href="https://forms.gle/jzjRaLkQkXfaSHP47" target="_parent" rel="noopener noreferrer">
-                        <ButtonsBody>INSCREVA-SE</ButtonsBody>
+                    <ButtonsLinks href="https://drive.google.com/file/d/1BY96efgPJUl6kbXQF4GiRu1vrKKWGnA_/view?usp=sharing" target="_parent" rel="noopener noreferrer">
+                        <ButtonsBody>RESULTADO</ButtonsBody>
                     </ButtonsLinks>
                 </ButtonsLinksWrapper>
             </ButtonsArea>
